@@ -20,7 +20,7 @@ import com.vaadin.ui.UI;
 @Theme("valo")
 public class Newproject2UI extends UI {
 
-	FilesystemContainer docs = new FilesystemContainer(new File("/tmp"));
+	FilesystemContainer docs = new FilesystemContainer(new File("/etc"));
 	Table docList = new Table("Documents", docs);
 	DocEditor docView = new DocEditor();
    
